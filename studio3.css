@@ -3,7 +3,7 @@ html, body {
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #000000;
   margin: 0;
   font-family: Helvetica, sans-serif;
   ;
@@ -40,7 +40,7 @@ a {
   top: 20px;
   right: 20px;
   font-size: 12px;
-  color: rgba(0, 0, 0, 0.75);
+  color: rgba(255, 255, 255, 0.75);
 }
 
 .element .symbol {
@@ -50,7 +50,7 @@ a {
   right: 0px;
   font-size: 60px;
   font-weight: bold;
-  color: rgba(0, 0, 0, 0.75);
+  color: rgba(255, 255, 255, 0.75);
   text-shadow: 0 0 10px rgba(0, 255, 255, 0.95);
 }
 
@@ -60,7 +60,7 @@ a {
   left: 0px;
   right: 0px;
   font-size: 12px;
-  color: rgba(0, 0, 0, 0.75);
+  color: rgba(255, 255, 255, 0.75);
 }
 
 button {
@@ -79,4 +79,25 @@ button:hover {
 button:active {
   color: #000000;
   background-color: rgba(0, 255, 255, 0.75);
+}
+
+#messege {
+  padding:100px;
+  width: 1500px;
+  height: 200px;
+  font-size: 150pt;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  cursor: default;
+}
+
+.detail {
+  padding:100px;
+  width: 1500px;
+  height: 200px;
+  font-size: 25pt;
+  color: #ffffff;
+  text-align: center;
+  cursor: default;
 }
